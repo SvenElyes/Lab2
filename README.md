@@ -1,9 +1,12 @@
-# MEGA for Video Object Detection
+# MEGA for Video Object Detection (Modified for UAM Video Deep Learning Lecture)
 
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/memory-enhanced-global-local-aggregation-for/video-object-detection-on-imagenet-vid)](https://paperswithcode.com/sota/video-object-detection-on-imagenet-vid?p=memory-enhanced-global-local-aggregation-for)
 
 By [Yihong Chen](https://scalsol.github.io), [Yue Cao](http://yue-cao.me), [Han Hu](https://ancientmooner.github.io/), [Liwei Wang](http://www.liweiwang-pku.com/).
+Modified by Jade Martin-Lise and Sven Leschber.
+
+This repo has been modified to work on the specific computers of UAM. A detailed guide of installation/changes have been recorded both in the ["report"] (https://github.com/SvenElyes/Lab2/blob/master/report_UAM.pdf) and in the ["Install.md"](https://github.com/SvenElyes/Lab2/blob/master/INSTALL.md) file of this repo.
 
 This repo is an official implementation of ["Memory Enhanced Global-Local Aggregation for Video Object Detection"](https://arxiv.org/abs/2003.12063), accepted by CVPR 2020. This repository contains a PyTorch implementation of our approach MEGA based on [maskrcnn_benchmark](https://github.com/facebookresearch/maskrcnn-benchmark), as well as some training scripts to reproduce the results on ImageNet VID reported in our paper. 
 
